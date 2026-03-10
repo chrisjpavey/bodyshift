@@ -1,7 +1,7 @@
-// BodyShift Service Worker v2
+// BodyShift Service Worker v3
 // Uses relative paths so it works in ANY subdirectory (GitHub Pages, custom domain, etc.)
 
-const CACHE_NAME = 'bodyshift-v2';
+const CACHE_NAME = 'bodyshift-v3';
 
 // Get the base path dynamically from the SW's own location
 // e.g. if SW is at /bodyshift/sw.js, BASE = /bodyshift/
